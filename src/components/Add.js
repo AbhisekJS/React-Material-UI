@@ -95,7 +95,8 @@ const Add = () => {
                     variant="outlined"
                     color="primary"
                     style={{ marginRight: 20 }}
-                    onClick={() => setOpenAlert(true)}>
+                    onClick={() => {setOpenAlert(true)
+                    setOpen(false)}}>
                     Create
                     </Button>
                     
